@@ -67,7 +67,7 @@ class LLMComponent:
                 
                 model_path = str(models_path / settings.llamacpp.llm_hf_model_file)
                 
-                print(f'*** model_path: {model_path}')
+                logger.warning(f'*** model_path: {model_path}')
                 
                 self.llm = LlamaCPP(
                     model_path=model_path,
