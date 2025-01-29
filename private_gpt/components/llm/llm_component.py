@@ -63,8 +63,10 @@ class LLMComponent:
                 if settings.llamacpp.chat_format:
                     settings_kwargs["chat_format"] = settings.llamacpp.chat_format
 
+                model_path = str(models_path / settings.llamacpp.llm_hf_model_file)
+                print(f'*** model_path: {model_path}')
                 self.llm = LlamaCPP(
-                    model_path=str(models_path / settings.llamacpp.llm_hf_model_file),
+                    model_path=model_path,
                     temperature=settings.llm.temperature,
                     max_new_tokens=settings.llm.max_new_tokens,
                     context_window=settings.llm.context_window,
