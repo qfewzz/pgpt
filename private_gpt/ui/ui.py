@@ -585,7 +585,7 @@ if __name__ == "__main__":
     ui = global_injector.get(PrivateGptUi)
     _blocks = ui.get_ui_blocks()
     _blocks.queue()
-    local_url, public_url, _ = _blocks.launch(debug=False, show_api=False, share=True)
+    local_url, public_url, _ = _blocks.launch(debug=True, show_api=False, share=True, prevent_thread=False)
     if public_url:
         print(f"Public URL: {public_url}")
     else:
