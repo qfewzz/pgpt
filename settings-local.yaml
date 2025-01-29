@@ -14,7 +14,7 @@ server:
 ###################################################
 
 llm:
-  mode: ollama
+  mode: llamacpp
 
 ollama:
   # llm_model: llama_3.1_q4_km
@@ -64,10 +64,10 @@ openai:
 
 llamacpp:
   # llm_hf_repo_id: lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF
-  # llm_hf_model_file: dorna-llama3-8b-instruct.Q8_0__2
+  llm_hf_model_file: models/dorna-llama3-8b-instruct.Q4_K_M.2.gguf
   # llm_hf_model_file: Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf
   # llm_hf_model_file: Meta-Llama-3.1-8B-Instruct-Q4_K_M-take2.gguf
-  llm_hf_model_file: dorna-llama3-8b-instruct.Q4_K_S.gguf
+  # llm_hf_model_file: dorna-llama3-8b-instruct.Q4_K_S.gguf
   chat_format: llama-3
   # max_new_tokens: 4096
   context_window: 4096
