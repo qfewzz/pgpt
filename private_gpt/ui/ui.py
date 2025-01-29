@@ -581,9 +581,9 @@ class PrivateGptUi:
         logger.info("Mounting the gradio UI, at path=%s", path)
         gr.mount_gradio_app(app, blocks, path=path, favicon_path=AVATAR_BOT)
 
-
 if __name__ == "__main__":
     ui = global_injector.get(PrivateGptUi)
     _blocks = ui.get_ui_blocks()
     _blocks.queue()
-    _blocks.launch(debug=False, show_api=False)
+    _blocks.launch(debug=False, show_api=False, share=True)  # Added share=True
+
