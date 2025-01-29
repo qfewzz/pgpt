@@ -587,8 +587,8 @@ if __name__ == "__main__":
     _blocks.queue()
     local_url, public_url, _ = _blocks.launch(debug=True, show_api=False, share=True, prevent_thread_lock=True)
     if public_url:
-        print(f"Public URL: {public_url}")
+        logger.warning(f"Public URL: {public_url}")
     else:
-        print("No public URL generated.")
+        logger.warning("No public URL generated.")
     time.sleep(9999999999999)
 
