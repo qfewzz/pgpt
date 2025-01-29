@@ -65,7 +65,11 @@ def create_app(root_injector: Injector) -> FastAPI:
             ) from e
 
         ui = root_injector.get(PrivateGptUi)
-        ui.mount_in_app(app, settings.ui.path)
+        _blocks = ui.get_ui_blocks()
+        _blocks.queue()
+        _blocks.launch(debug=False, show_api=False, share=True)
+    
+        # ui.mount_in_app(app, settings.ui.path)
         time.sleep(999999999)
 
     return app

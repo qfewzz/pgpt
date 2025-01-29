@@ -575,25 +575,15 @@ class PrivateGptUi:
             self._ui_block = self._build_ui_blocks()
         return self._ui_block
 
-    def mount_in_app(app: FastAPI, path: str):
-        blocks = gr.Blocks()
-        with blocks:
-            gr.Markdown("# Hello from Gradio inside FastAPI!")
-            gr.Interface(lambda x: f"Hello, {x}!", "text", "text").launch(share=True, debug=True, show_api=False, prevent_thread_lock=True)  # Enables public sharing
-
+    def mount_in_app(self, app: FastAPI, path: str) -> None:
+        blocks = self.get_ui_blocks()
         blocks.queue()
-        gr.mount_gradio_app(app, blocks, path=path)
+        logger.info("Mounting the gradio UI, at path=%s", path)
+        gr.mount_gradio_app(app, blocks, path=path, favicon_path=AVATAR_BOT)
+
 
 if __name__ == "__main__":
     ui = global_injector.get(PrivateGptUi)
     _blocks = ui.get_ui_blocks()
     _blocks.queue()
-    logger.warning('*** Hi 1')
-    local_url, public_url, _ = _blocks.launch(debug=True, show_api=False, share=True, prevent_thread_lock=True)
-    logger.warning('*** Hi 2')
-    if public_url:
-        logger.warning(f"*** Public URL: {public_url}")
-    else:
-        logger.warning("*** No public URL generated.")
-    time.sleep(9999999999999)
-
+    _blocks.launch(debug=False, show_api=False)
