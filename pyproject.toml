@@ -4,9 +4,10 @@ version = "0.6.2"
 description = "Private GPT"
 authors = ["Zylon <hi@zylon.ai>"]
 
+# PrivateGPT
 [tool.poetry.dependencies]
 python = ">=3.11,<3.12"
-# PrivateGPT
+ipykernel = "*"
 fastapi = { extras = ["all"], version = "^0.115.0" }
 python-multipart = "^0.0.10"
 injector = "^0.22.0"
