@@ -1,0 +1,1502 @@
+[
+    {
+        "py/object": "llama_index.core.schema.NodeWithScore",
+        "py/state": {
+            "__dict__": {
+                "node": {
+                    "py/object": "llama_index.core.schema.TextNode",
+                    "py/state": {
+                        "__dict__": {
+                            "id_": "ba977ecf-62e0-49ef-b7a7-f53129c354be",
+                            "embedding": null,
+                            "metadata": {
+                                "page_label": "6",
+                                "file_name": "Ae.pdf",
+                                "doc_id": "0ba73aa7-ef34-4075-b8ce-71dd0c006bd6",
+                                "window": "در این  شیوه \nدانشجو ملزم است تا بعد از هماهنگی با استاد معرفی شده برای فراگرفتن کمّی و کیفی درس براساس منا بع \nتعیین شده در سرفصل درس بدون الزام به حضور در کلاس، در تاریخ تعیین شده نسبت به شرکت در  \nآزمون آن اقدام نماید. \n 2ـ20.  دانش آموخته: فردی است که یکی از دوره های تحصیلی را با موفقیت به پایان برساند و برابر ضواب ط \nمعیّن، گواهی یا مدرک تحصیلی مربوط را دریافت کرده باشد . \n 2ـ21 .  نیمسال تحصیلی هر نیمسال تحصیلی شامل 16 هفته آموزش و دو هفته امتحانات پایانی است.  \n 2ـ22.  دورة تابستان شامل 6 هفته آموزش و یک هفته امتحانات پایانی است \n2-23 .دورة هم عرض: دوره ای است که در مجموعه گروه های آموزشی هم راستا تعریف شوند. \n",
+                                "original_text": "2ـ21 . "
+                            },
+                            "excluded_embed_metadata_keys": [
+                                "doc_id",
+                                "window",
+                                "original_text"
+                            ],
+                            "excluded_llm_metadata_keys": [
+                                "file_name",
+                                "doc_id",
+                                "page_label",
+                                "window",
+                                "original_text"
+                            ],
+                            "relationships": {
+                                "1": {
+                                    "py/object": "llama_index.core.schema.RelatedNodeInfo",
+                                    "py/state": {
+                                        "__dict__": {
+                                            "node_id": "0ba73aa7-ef34-4075-b8ce-71dd0c006bd6",
+                                            "node_type": {
+                                                "py/reduce": [
+                                                    {
+                                                        "py/type": "llama_index.core.schema.ObjectType"
+                                                    },
+                                                    {
+                                                        "py/tuple": [
+                                                            "4"
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            "metadata": {
+                                                "page_label": "6",
+                                                "file_name": "Ae.pdf",
+                                                "doc_id": "0ba73aa7-ef34-4075-b8ce-71dd0c006bd6"
+                                            },
+                                            "hash": "60ee38af5964a653b761511bc9d447ca7b8039af487dc71f3cd6a4b875da7f62"
+                                        },
+                                        "__pydantic_extra__": null,
+                                        "__pydantic_fields_set__": {
+                                            "py/set": [
+                                                "node_id",
+                                                "hash",
+                                                "node_type",
+                                                "metadata"
+                                            ]
+                                        },
+                                        "__pydantic_private__": null
+                                    }
+                                },
+                                "2": {
+                                    "py/object": "llama_index.core.schema.RelatedNodeInfo",
+                                    "py/state": {
+                                        "__dict__": {
+                                            "node_id": "62a347ce-673d-47ec-b45c-35b98b54eade",
+                                            "node_type": {
+                                                "py/reduce": [
+                                                    {
+                                                        "py/type": "llama_index.core.schema.ObjectType"
+                                                    },
+                                                    {
+                                                        "py/tuple": [
+                                                            "1"
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            "metadata": {
+                                                "page_label": "6",
+                                                "file_name": "Ae.pdf",
+                                                "doc_id": "0ba73aa7-ef34-4075-b8ce-71dd0c006bd6",
+                                                "window": "دانشجوی مشروط: دانشجویی است که در یک نیمسال تحصیلی  (غیر از تابستان) با رعایت انتخ اب \nحداقل 12 واحد درسی،میانگینی کمتر از  12 احراز می کند؛ چنین دانشجویی نمیتواند در  نیمسال بعد  \nبیش از 14 واحد درسی انتخاب نماید \n2ـ20 .معرفی به استادشیوهای از تحصیل در چارچوب  تحصیل حضوری است، این شیوه تنها شامل آن  \nدروسی میشود که دانشجو بعد از ثبت تمام نمراتش برای فراغت از تحصی ل انتخاب میکند.  در این  شیوه \nدانشجو ملزم است تا بعد از هماهنگی با استاد معرفی شده برای فراگرفتن کمّی و کیفی درس براساس منا بع \nتعیین شده در سرفصل درس بدون الزام به حضور در کلاس، در تاریخ تعیین شده نسبت به شرکت در  \nآزمون آن اقدام نماید. \n 2ـ20.  دانش آموخته: فردی است که یکی از دوره های تحصیلی را با موفقیت به پایان برساند و برابر ضواب ط \nمعیّن، گواهی یا مدرک تحصیلی مربوط را دریافت کرده باشد . \n 2ـ21 .  نیمسال تحصیلی هر نیمسال تحصیلی شامل 16 هفته آموزش و دو هفته امتحانات پایانی است.  \n 2ـ22. ",
+                                                "original_text": "دانش آموخته: فردی است که یکی از دوره های تحصیلی را با موفقیت به پایان برساند و برابر ضواب ط \nمعیّن، گواهی یا مدرک تحصیلی مربوط را دریافت کرده باشد . \n"
+                                            },
+                                            "hash": "cdb190659253bb4d15bf7237b3acc839581e92fe79788ccac636547a0570440e"
+                                        },
+                                        "__pydantic_extra__": null,
+                                        "__pydantic_fields_set__": {
+                                            "py/set": [
+                                                "node_id",
+                                                "hash",
+                                                "node_type",
+                                                "metadata"
+                                            ]
+                                        },
+                                        "__pydantic_private__": null
+                                    }
+                                },
+                                "3": {
+                                    "py/object": "llama_index.core.schema.RelatedNodeInfo",
+                                    "py/state": {
+                                        "__dict__": {
+                                            "node_id": "fa186410-becf-4550-ba2b-f6cda1ffeef0",
+                                            "node_type": {
+                                                "py/id": 19
+                                            },
+                                            "metadata": {
+                                                "window": "2ـ20.  دانش آموخته: فردی است که یکی از دوره های تحصیلی را با موفقیت به پایان برساند و برابر ضواب ط \nمعیّن، گواهی یا مدرک تحصیلی مربوط را دریافت کرده باشد . \n 2ـ21 .  نیمسال تحصیلی هر نیمسال تحصیلی شامل 16 هفته آموزش و دو هفته امتحانات پایانی است.  \n 2ـ22.  دورة تابستان شامل 6 هفته آموزش و یک هفته امتحانات پایانی است \n2-23 .دورة هم عرض: دوره ای است که در مجموعه گروه های آموزشی هم راستا تعریف شوند. \n مادة 3. ",
+                                                "original_text": "نیمسال تحصیلی هر نیمسال تحصیلی شامل 16 هفته آموزش و دو هفته امتحانات پایانی است.  \n"
+                                            },
+                                            "hash": "4305afdb226e188e4cbaea308665aeff097f953cff17775e941d31d325006fb3"
+                                        },
+                                        "__pydantic_extra__": null,
+                                        "__pydantic_fields_set__": {
+                                            "py/set": [
+                                                "node_id",
+                                                "hash",
+                                                "node_type",
+                                                "metadata"
+                                            ]
+                                        },
+                                        "__pydantic_private__": null
+                                    }
+                                }
+                            },
+                            "text": "2ـ21 . ",
+                            "mimetype": "text/plain",
+                            "start_char_idx": 1088,
+                            "end_char_idx": 1095,
+                            "text_template": "{metadata_str}\n\n{content}",
+                            "metadata_template": "{key}: {value}",
+                            "metadata_seperator": "\n"
+                        },
+                        "__pydantic_extra__": null,
+                        "__pydantic_fields_set__": {
+                            "py/set": [
+                                "text",
+                                "id_",
+                                "text_template",
+                                "start_char_idx",
+                                "embedding",
+                                "metadata_seperator",
+                                "mimetype",
+                                "metadata",
+                                "metadata_template",
+                                "relationships",
+                                "end_char_idx",
+                                "excluded_embed_metadata_keys",
+                                "excluded_llm_metadata_keys"
+                            ]
+                        },
+                        "__pydantic_private__": null
+                    }
+                },
+                "score": 0.5450701662546376
+            },
+            "__pydantic_extra__": null,
+            "__pydantic_fields_set__": {
+                "py/set": [
+                    "node",
+                    "score"
+                ]
+            },
+            "__pydantic_private__": null
+        }
+    },
+    {
+        "py/object": "llama_index.core.schema.NodeWithScore",
+        "py/state": {
+            "__dict__": {
+                "node": {
+                    "py/object": "llama_index.core.schema.TextNode",
+                    "py/state": {
+                        "__dict__": {
+                            "id_": "feeae322-4328-48cd-a1d4-79e5c0e24ee6",
+                            "embedding": null,
+                            "metadata": {
+                                "page_label": "24",
+                                "file_name": "Ae.pdf",
+                                "doc_id": "44bedd65-d65e-4b05-a7e1-69dbb71d0041",
+                                "window": " 19ـ3 .  تطبیق واحدهای گذراندة دانشجو در دورة مهمانی در دانشگاه دیگر با واحد های درسی او . \n 19ـ3ـ1.   دانشجو به هنگام مهمانی باید فرم پیشنهاد واحد درسی را از گروه آموزشی خود دریافت کرده \nبعد از انجام مراحل مهمانی در ادارة کل آموزش، به دانشگاه مقصد ا رائه کند و خارج از واحدهای درسی  \nپیشنهاد شده هیچ واحد دیگری را انتخاب نکند. ",
+                                "original_text": " 19ـ3 . "
+                            },
+                            "excluded_embed_metadata_keys": [
+                                "doc_id",
+                                "window",
+                                "original_text"
+                            ],
+                            "excluded_llm_metadata_keys": [
+                                "file_name",
+                                "doc_id",
+                                "page_label",
+                                "window",
+                                "original_text"
+                            ],
+                            "relationships": {
+                                "1": {
+                                    "py/object": "llama_index.core.schema.RelatedNodeInfo",
+                                    "py/state": {
+                                        "__dict__": {
+                                            "node_id": "44bedd65-d65e-4b05-a7e1-69dbb71d0041",
+                                            "node_type": {
+                                                "py/id": 14
+                                            },
+                                            "metadata": {
+                                                "page_label": "24",
+                                                "file_name": "Ae.pdf",
+                                                "doc_id": "44bedd65-d65e-4b05-a7e1-69dbb71d0041"
+                                            },
+                                            "hash": "a0eee8eb4b6b6c01db54bb5c500b474df628c757b22c14eb9d89be35f0278ec1"
+                                        },
+                                        "__pydantic_extra__": null,
+                                        "__pydantic_fields_set__": {
+                                            "py/set": [
+                                                "node_id",
+                                                "hash",
+                                                "node_type",
+                                                "metadata"
+                                            ]
+                                        },
+                                        "__pydantic_private__": null
+                                    }
+                                },
+                                "3": {
+                                    "py/object": "llama_index.core.schema.RelatedNodeInfo",
+                                    "py/state": {
+                                        "__dict__": {
+                                            "node_id": "adb9931e-0dff-46a2-807d-9071271913d5",
+                                            "node_type": {
+                                                "py/id": 19
+                                            },
+                                            "metadata": {
+                                                "window": " 19ـ3 .  تطبیق واحدهای گذراندة دانشجو در دورة مهمانی در دانشگاه دیگر با واحد های درسی او . \n 19ـ3ـ1.   دانشجو به هنگام مهمانی باید فرم پیشنهاد واحد درسی را از گروه آموزشی خود دریافت کرده \nبعد از انجام مراحل مهمانی در ادارة کل آموزش، به دانشگاه مقصد ا رائه کند و خارج از واحدهای درسی  \nپیشنهاد شده هیچ واحد دیگری را انتخاب نکند.  در صورت وقوع هرگونه تغییر در انتخاب واحد، بلافاصله  \nباید نسبت به دریافت اصلاحیِة انتخاب واحد از گروه آموزشی مبداء و ارائة آن به گروه آموزشی  مقصد اقدام \nنماید. ",
+                                                "original_text": "تطبیق واحدهای گذراندة دانشجو در دورة مهمانی در دانشگاه دیگر با واحد های درسی او . \n"
+                                            },
+                                            "hash": "c64536e9e4fe9b51f403099629db53429b93164613a55c416cbdd09a337dfa1f"
+                                        },
+                                        "__pydantic_extra__": null,
+                                        "__pydantic_fields_set__": {
+                                            "py/set": [
+                                                "node_id",
+                                                "hash",
+                                                "node_type",
+                                                "metadata"
+                                            ]
+                                        },
+                                        "__pydantic_private__": null
+                                    }
+                                }
+                            },
+                            "text": " 19ـ3 . ",
+                            "mimetype": "text/plain",
+                            "start_char_idx": 0,
+                            "end_char_idx": 8,
+                            "text_template": "{metadata_str}\n\n{content}",
+                            "metadata_template": "{key}: {value}",
+                            "metadata_seperator": "\n"
+                        },
+                        "__pydantic_extra__": null,
+                        "__pydantic_fields_set__": {
+                            "py/set": [
+                                "text",
+                                "id_",
+                                "text_template",
+                                "start_char_idx",
+                                "embedding",
+                                "metadata_seperator",
+                                "mimetype",
+                                "metadata",
+                                "metadata_template",
+                                "relationships",
+                                "end_char_idx",
+                                "excluded_embed_metadata_keys",
+                                "excluded_llm_metadata_keys"
+                            ]
+                        },
+                        "__pydantic_private__": null
+                    }
+                },
+                "score": 0.5437929830362446
+            },
+            "__pydantic_extra__": null,
+            "__pydantic_fields_set__": {
+                "py/set": [
+                    "node",
+                    "score"
+                ]
+            },
+            "__pydantic_private__": null
+        }
+    },
+    {
+        "py/object": "llama_index.core.schema.NodeWithScore",
+        "py/state": {
+            "__dict__": {
+                "node": {
+                    "py/object": "llama_index.core.schema.TextNode",
+                    "py/state": {
+                        "__dict__": {
+                            "id_": "80c32da1-7f57-4c11-ab20-1092afcee9e8",
+                            "embedding": null,
+                            "metadata": {
+                                "page_label": "23",
+                                "file_name": "Ae.pdf",
+                                "doc_id": "33da36f9-a1d9-4008-8d74-1986fdcf004b",
+                                "window": " 19ـ1 .  تطبیق واحدهای گذراندة دانشجو در مقطع و دورة پیش از پذیرش دانشجو در \nرشته/گرایش فعلی او. \n 19ـ1ـ1.   تطبیق واحدهای درسی تخصصی دورههای نیمه حضوری و غیر ح ضوری با واحدهای درسی نظام  \nآموزشهای حضوری ممنوع است.  ",
+                                "original_text": " 19ـ1 . "
+                            },
+                            "excluded_embed_metadata_keys": [
+                                "doc_id",
+                                "window",
+                                "original_text"
+                            ],
+                            "excluded_llm_metadata_keys": [
+                                "file_name",
+                                "doc_id",
+                                "page_label",
+                                "window",
+                                "original_text"
+                            ],
+                            "relationships": {
+                                "1": {
+                                    "py/object": "llama_index.core.schema.RelatedNodeInfo",
+                                    "py/state": {
+                                        "__dict__": {
+                                            "node_id": "33da36f9-a1d9-4008-8d74-1986fdcf004b",
+                                            "node_type": {
+                                                "py/id": 14
+                                            },
+                                            "metadata": {
+                                                "page_label": "23",
+                                                "file_name": "Ae.pdf",
+                                                "doc_id": "33da36f9-a1d9-4008-8d74-1986fdcf004b"
+                                            },
+                                            "hash": "d66fc70d760baeb585084c3f0e3302c23b5e4e82369aec57ba9957636c9c2191"
+                                        },
+                                        "__pydantic_extra__": null,
+                                        "__pydantic_fields_set__": {
+                                            "py/set": [
+                                                "node_id",
+                                                "hash",
+                                                "node_type",
+                                                "metadata"
+                                            ]
+                                        },
+                                        "__pydantic_private__": null
+                                    }
+                                },
+                                "3": {
+                                    "py/object": "llama_index.core.schema.RelatedNodeInfo",
+                                    "py/state": {
+                                        "__dict__": {
+                                            "node_id": "8fa3da6d-203b-4722-94df-bb12f2360f96",
+                                            "node_type": {
+                                                "py/id": 19
+                                            },
+                                            "metadata": {
+                                                "window": " 19ـ1 .  تطبیق واحدهای گذراندة دانشجو در مقطع و دورة پیش از پذیرش دانشجو در \nرشته/گرایش فعلی او. \n 19ـ1ـ1.   تطبیق واحدهای درسی تخصصی دورههای نیمه حضوری و غیر ح ضوری با واحدهای درسی نظام  \nآموزشهای حضوری ممنوع است.   تنها واحدهای عمومی با تأیید گروه آموزشی مربوط با نمرة بالای 16 قابل\nتطبیق خواهد بود. \n",
+                                                "original_text": "تطبیق واحدهای گذراندة دانشجو در مقطع و دورة پیش از پذیرش دانشجو در \nرشته/گرایش فعلی او. \n"
+                                            },
+                                            "hash": "2178d048d8fe199ebc28703fc59017ce6befcc170fb62f8aba4a2f37bd0bbd43"
+                                        },
+                                        "__pydantic_extra__": null,
+                                        "__pydantic_fields_set__": {
+                                            "py/set": [
+                                                "node_id",
+                                                "hash",
+                                                "node_type",
+                                                "metadata"
+                                            ]
+                                        },
+                                        "__pydantic_private__": null
+                                    }
+                                }
+                            },
+                            "text": " 19ـ1 . ",
+                            "mimetype": "text/plain",
+                            "start_char_idx": 0,
+                            "end_char_idx": 8,
+                            "text_template": "{metadata_str}\n\n{content}",
+                            "metadata_template": "{key}: {value}",
+                            "metadata_seperator": "\n"
+                        },
+                        "__pydantic_extra__": null,
+                        "__pydantic_fields_set__": {
+                            "py/set": [
+                                "text",
+                                "id_",
+                                "text_template",
+                                "start_char_idx",
+                                "embedding",
+                                "metadata_seperator",
+                                "mimetype",
+                                "metadata",
+                                "metadata_template",
+                                "relationships",
+                                "end_char_idx",
+                                "excluded_embed_metadata_keys",
+                                "excluded_llm_metadata_keys"
+                            ]
+                        },
+                        "__pydantic_private__": null
+                    }
+                },
+                "score": 0.5419765997046665
+            },
+            "__pydantic_extra__": null,
+            "__pydantic_fields_set__": {
+                "py/set": [
+                    "node",
+                    "score"
+                ]
+            },
+            "__pydantic_private__": null
+        }
+    },
+    {
+        "py/object": "llama_index.core.schema.NodeWithScore",
+        "py/state": {
+            "__dict__": {
+                "node": {
+                    "py/object": "llama_index.core.schema.TextNode",
+                    "py/state": {
+                        "__dict__": {
+                            "id_": "18d31a37-15fc-4b38-bb03-af74a55f1033",
+                            "embedding": null,
+                            "metadata": {
+                                "page_label": "10",
+                                "file_name": "Ae.pdf",
+                                "doc_id": "6e248fba-c45d-49cf-a5fa-e94e05f2276b",
+                                "window": "صدور هرگونه گواهی به زبان انگلیسی ، بعد از تأیید ادارة کل  آموزش باید تو سط ادارة  امور  \nبینالملل دانشگاه به زبان انگلیسی ترجمه شود.  \n مادة 10ـ حذف درس \n10-1.  دانشجو میتواند تا موعد مقرر در تقویم جامع دانشگاهی با رعایت دیگر مقررات،  نسبت به  حذف \nتعداد مشخصی از واحدهای انتخابی خود اقدام نماید.  \n تبصرة1.   دانشجو تا آنجا میتواند نسبت به حذف واحد های انتخاب شدة خود اقدام نماید که خللی در \nفراغت از تحصیل او در طول حداکثر مدت مجاز تحصیل او نرساند.  چنانچه از نظر استاد راهنمای  دانشجو \n،تعداد واحدهای باقیماندة دانشجو نشان از آن داشته باشد که با حذفهای مکرر امکان ف راغت از تحصیل  \nدر موعد مقرر  برایش مقدور نیست، استاد راهنما میتواند با حذف واحدهای درسی او مخا لفت کند.  در هر  \nحال حذف واحد درسی در هر مرحلهای از تحصیل مستلزم تأیید استاد راهنمای آموزشی است  . ",
+                                "original_text": "تبصرة1.  "
+                            },
+                            "excluded_embed_metadata_keys": [
+                                "doc_id",
+                                "window",
+                                "original_text"
+                            ],
+                            "excluded_llm_metadata_keys": [
+                                "file_name",
+                                "doc_id",
+                                "page_label",
+                                "window",
+                                "original_text"
+                            ],
+                            "relationships": {
+                                "1": {
+                                    "py/object": "llama_index.core.schema.RelatedNodeInfo",
+                                    "py/state": {
+                                        "__dict__": {
+                                            "node_id": "6e248fba-c45d-49cf-a5fa-e94e05f2276b",
+                                            "node_type": {
+                                                "py/id": 14
+                                            },
+                                            "metadata": {
+                                                "page_label": "10",
+                                                "file_name": "Ae.pdf",
+                                                "doc_id": "6e248fba-c45d-49cf-a5fa-e94e05f2276b"
+                                            },
+                                            "hash": "4ea2b5498decd93b8e5500cd577a0b5be71083c4cc80ac76ce3fb4e6a2021189"
+                                        },
+                                        "__pydantic_extra__": null,
+                                        "__pydantic_fields_set__": {
+                                            "py/set": [
+                                                "node_id",
+                                                "hash",
+                                                "node_type",
+                                                "metadata"
+                                            ]
+                                        },
+                                        "__pydantic_private__": null
+                                    }
+                                },
+                                "2": {
+                                    "py/object": "llama_index.core.schema.RelatedNodeInfo",
+                                    "py/state": {
+                                        "__dict__": {
+                                            "node_id": "d5d6103c-af09-4e4b-afd5-3a27ed9e4fd1",
+                                            "node_type": {
+                                                "py/id": 19
+                                            },
+                                            "metadata": {
+                                                "page_label": "10",
+                                                "file_name": "Ae.pdf",
+                                                "doc_id": "6e248fba-c45d-49cf-a5fa-e94e05f2276b",
+                                                "window": "تبصره 2.   صدور هرگونه گواهی به زبان انگلیسی ، بعد از تأیید ادارة کل  آموزش باید تو سط ادارة  امور  \nبینالملل دانشگاه به زبان انگلیسی ترجمه شود.  \n مادة 10ـ حذف درس \n10-1.  دانشجو میتواند تا موعد مقرر در تقویم جامع دانشگاهی با رعایت دیگر مقررات،  نسبت به  حذف \nتعداد مشخصی از واحدهای انتخابی خود اقدام نماید.  \n تبصرة1.   دانشجو تا آنجا میتواند نسبت به حذف واحد های انتخاب شدة خود اقدام نماید که خللی در \nفراغت از تحصیل او در طول حداکثر مدت مجاز تحصیل او نرساند.  چنانچه از نظر استاد راهنمای  دانشجو \n،تعداد واحدهای باقیماندة دانشجو نشان از آن داشته باشد که با حذفهای مکرر امکان ف راغت از تحصیل  \nدر موعد مقرر  برایش مقدور نیست، استاد راهنما میتواند با حذف واحدهای درسی او مخا لفت کند. ",
+                                                "original_text": "دانشجو میتواند تا موعد مقرر در تقویم جامع دانشگاهی با رعایت دیگر مقررات،  نسبت به  حذف \nتعداد مشخصی از واحدهای انتخابی خود اقدام نماید.  \n"
+                                            },
+                                            "hash": "b02847e1766b0f3db44b758343c7295a5051f978d77081b67d297e0d91ec0e15"
+                                        },
+                                        "__pydantic_extra__": null,
+                                        "__pydantic_fields_set__": {
+                                            "py/set": [
+                                                "node_id",
+                                                "hash",
+                                                "node_type",
+                                                "metadata"
+                                            ]
+                                        },
+                                        "__pydantic_private__": null
+                                    }
+                                },
+                                "3": {
+                                    "py/object": "llama_index.core.schema.RelatedNodeInfo",
+                                    "py/state": {
+                                        "__dict__": {
+                                            "node_id": "b4af6534-c719-418b-b9f6-7c77950408d6",
+                                            "node_type": {
+                                                "py/id": 19
+                                            },
+                                            "metadata": {
+                                                "window": "مادة 10ـ حذف درس \n10-1.  دانشجو میتواند تا موعد مقرر در تقویم جامع دانشگاهی با رعایت دیگر مقررات،  نسبت به  حذف \nتعداد مشخصی از واحدهای انتخابی خود اقدام نماید.  \n تبصرة1.   دانشجو تا آنجا میتواند نسبت به حذف واحد های انتخاب شدة خود اقدام نماید که خللی در \nفراغت از تحصیل او در طول حداکثر مدت مجاز تحصیل او نرساند.  چنانچه از نظر استاد راهنمای  دانشجو \n،تعداد واحدهای باقیماندة دانشجو نشان از آن داشته باشد که با حذفهای مکرر امکان ف راغت از تحصیل  \nدر موعد مقرر  برایش مقدور نیست، استاد راهنما میتواند با حذف واحدهای درسی او مخا لفت کند.  در هر  \nحال حذف واحد درسی در هر مرحلهای از تحصیل مستلزم تأیید استاد راهنمای آموزشی است  . ",
+                                                "original_text": "دانشجو تا آنجا میتواند نسبت به حذف واحد های انتخاب شدة خود اقدام نماید که خللی در \nفراغت از تحصیل او در طول حداکثر مدت مجاز تحصیل او نرساند. "
+                                            },
+                                            "hash": "d49bf7a17c48177e8b71f4aca7528aded6b2f601527e15c2d27e501a10009144"
+                                        },
+                                        "__pydantic_extra__": null,
+                                        "__pydantic_fields_set__": {
+                                            "py/set": [
+                                                "node_id",
+                                                "hash",
+                                                "node_type",
+                                                "metadata"
+                                            ]
+                                        },
+                                        "__pydantic_private__": null
+                                    }
+                                }
+                            },
+                            "text": "تبصرة1.  ",
+                            "mimetype": "text/plain",
+                            "start_char_idx": 967,
+                            "end_char_idx": 976,
+                            "text_template": "{metadata_str}\n\n{content}",
+                            "metadata_template": "{key}: {value}",
+                            "metadata_seperator": "\n"
+                        },
+                        "__pydantic_extra__": null,
+                        "__pydantic_fields_set__": {
+                            "py/set": [
+                                "text",
+                                "id_",
+                                "text_template",
+                                "start_char_idx",
+                                "embedding",
+                                "metadata_seperator",
+                                "mimetype",
+                                "metadata",
+                                "metadata_template",
+                                "relationships",
+                                "end_char_idx",
+                                "excluded_embed_metadata_keys",
+                                "excluded_llm_metadata_keys"
+                            ]
+                        },
+                        "__pydantic_private__": null
+                    }
+                },
+                "score": 0.5354530859407252
+            },
+            "__pydantic_extra__": null,
+            "__pydantic_fields_set__": {
+                "py/set": [
+                    "node",
+                    "score"
+                ]
+            },
+            "__pydantic_private__": null
+        }
+    },
+    {
+        "py/object": "llama_index.core.schema.NodeWithScore",
+        "py/state": {
+            "__dict__": {
+                "node": {
+                    "py/object": "llama_index.core.schema.TextNode",
+                    "py/state": {
+                        "__dict__": {
+                            "id_": "6f54ab56-2364-498c-9dfe-fb9fdd2a2018",
+                            "embedding": null,
+                            "metadata": {
+                                "page_label": "21",
+                                "file_name": "Ae.pdf",
+                                "doc_id": "b9ac6a2f-fa6c-4c06-a7b1-cbf267effa16",
+                                "window": "برای دانشجویان انتقالی، خو ابگاه \nدولتی تعلق نمی گیرد0 دانشجویان انتقالی نمی توانند متقاضی مهمان به دانشگاه های دیگر باشند.   \n 17ـ7.   انجام انتقال از یک مؤسسه به مؤسسه دیگر در یک شهر ممنوع و صرفاً برای مهمانی دروس \nتکدرس مجاز می باشد . \n 17ـ8 .   برای انتقال یا انتقال توأم با تغییر رشته به دانشگاه پیام نور، طبق درخواس ت آن دانشگاه ، دانشجو \nباید دارای حداقل شرایط زیر باشد :  \n      الف ـ دانشجو باید حداقل24 واحد درسی را در دانشگاه مبدأ گذرانده باشد \n      ب ـ  دانشجویان پسر فاقد کارت پایان خدمت یا معافیت از خدمت سربازی، نباید بی ش از 4 نیمسال\nتحصیلی در دانشگاه مبدأ تحصیل کرده باشد. \n       پ ـ  معدل کل دانشجو نباید کمتر از 12 باشد \nمادة18ـ تغییر رشته و گرایش \n18ـ1.   دانشجوی دوره های کاردانی و کارشناسی پیوسته با داشتن شرایط زیر می تواند از  یک رشته یا \nگرایش به رشته یا گرایش دیگر تحصیلی در آن گروه آزمایشی یا در یک گروه آزمایشی دیگر در همان \nمؤسسه تغییر رشته یا گرایش دهد : \nالف) وجود رشته یا گرایش مورد تقاضای دانشجو در همان مؤسسه \nب) کمتر نبودن نمرة اکتسابی دانشجو در آزمون سراسری از نمرة کشوری آن رشته یا گرایش  در مؤسسه در  \nسال پذیرش ، براساس کارنامة محرمانة دانشجو. \n",
+                                "original_text": "17ـ8 .  "
+                            },
+                            "excluded_embed_metadata_keys": [
+                                "doc_id",
+                                "window",
+                                "original_text"
+                            ],
+                            "excluded_llm_metadata_keys": [
+                                "file_name",
+                                "doc_id",
+                                "page_label",
+                                "window",
+                                "original_text"
+                            ],
+                            "relationships": {
+                                "1": {
+                                    "py/object": "llama_index.core.schema.RelatedNodeInfo",
+                                    "py/state": {
+                                        "__dict__": {
+                                            "node_id": "b9ac6a2f-fa6c-4c06-a7b1-cbf267effa16",
+                                            "node_type": {
+                                                "py/id": 14
+                                            },
+                                            "metadata": {
+                                                "page_label": "21",
+                                                "file_name": "Ae.pdf",
+                                                "doc_id": "b9ac6a2f-fa6c-4c06-a7b1-cbf267effa16"
+                                            },
+                                            "hash": "0d2510ef587054a82383ca2e037334069cb3c1d730f2ec9a6e54638900c9b5b3"
+                                        },
+                                        "__pydantic_extra__": null,
+                                        "__pydantic_fields_set__": {
+                                            "py/set": [
+                                                "node_id",
+                                                "hash",
+                                                "node_type",
+                                                "metadata"
+                                            ]
+                                        },
+                                        "__pydantic_private__": null
+                                    }
+                                },
+                                "2": {
+                                    "py/object": "llama_index.core.schema.RelatedNodeInfo",
+                                    "py/state": {
+                                        "__dict__": {
+                                            "node_id": "5ffb13c7-b3dc-497a-8b0d-36447b4fa0f2",
+                                            "node_type": {
+                                                "py/id": 19
+                                            },
+                                            "metadata": {
+                                                "page_label": "21",
+                                                "file_name": "Ae.pdf",
+                                                "doc_id": "b9ac6a2f-fa6c-4c06-a7b1-cbf267effa16",
+                                                "window": "انتقال دانشجو در هرمقطع تحصیلی فقط یک بار مجاز است.   برای دانشجویان انتقالی، خو ابگاه \nدولتی تعلق نمی گیرد0 دانشجویان انتقالی نمی توانند متقاضی مهمان به دانشگاه های دیگر باشند.   \n 17ـ7.   انجام انتقال از یک مؤسسه به مؤسسه دیگر در یک شهر ممنوع و صرفاً برای مهمانی دروس \nتکدرس مجاز می باشد . \n 17ـ8 .   برای انتقال یا انتقال توأم با تغییر رشته به دانشگاه پیام نور، طبق درخواس ت آن دانشگاه ، دانشجو \nباید دارای حداقل شرایط زیر باشد :  \n      الف ـ دانشجو باید حداقل24 واحد درسی را در دانشگاه مبدأ گذرانده باشد \n      ب ـ  دانشجویان پسر فاقد کارت پایان خدمت یا معافیت از خدمت سربازی، نباید بی ش از 4 نیمسال\nتحصیلی در دانشگاه مبدأ تحصیل کرده باشد. \n       پ ـ  معدل کل دانشجو نباید کمتر از 12 باشد \nمادة18ـ تغییر رشته و گرایش \n18ـ1.  ",
+                                                "original_text": "انجام انتقال از یک مؤسسه به مؤسسه دیگر در یک شهر ممنوع و صرفاً برای مهمانی دروس \nتکدرس مجاز می باشد . \n"
+                                            },
+                                            "hash": "b98b688d95046595151baacc7fe5ac5d69cc40ff29179ef493e9a78b1aac5763"
+                                        },
+                                        "__pydantic_extra__": null,
+                                        "__pydantic_fields_set__": {
+                                            "py/set": [
+                                                "node_id",
+                                                "hash",
+                                                "node_type",
+                                                "metadata"
+                                            ]
+                                        },
+                                        "__pydantic_private__": null
+                                    }
+                                },
+                                "3": {
+                                    "py/object": "llama_index.core.schema.RelatedNodeInfo",
+                                    "py/state": {
+                                        "__dict__": {
+                                            "node_id": "c1971f83-deb7-4b7d-90ce-6569326b8788",
+                                            "node_type": {
+                                                "py/id": 19
+                                            },
+                                            "metadata": {
+                                                "window": "17ـ7.   انجام انتقال از یک مؤسسه به مؤسسه دیگر در یک شهر ممنوع و صرفاً برای مهمانی دروس \nتکدرس مجاز می باشد . \n 17ـ8 .   برای انتقال یا انتقال توأم با تغییر رشته به دانشگاه پیام نور، طبق درخواس ت آن دانشگاه ، دانشجو \nباید دارای حداقل شرایط زیر باشد :  \n      الف ـ دانشجو باید حداقل24 واحد درسی را در دانشگاه مبدأ گذرانده باشد \n      ب ـ  دانشجویان پسر فاقد کارت پایان خدمت یا معافیت از خدمت سربازی، نباید بی ش از 4 نیمسال\nتحصیلی در دانشگاه مبدأ تحصیل کرده باشد. \n       پ ـ  معدل کل دانشجو نباید کمتر از 12 باشد \nمادة18ـ تغییر رشته و گرایش \n18ـ1.   دانشجوی دوره های کاردانی و کارشناسی پیوسته با داشتن شرایط زیر می تواند از  یک رشته یا \nگرایش به رشته یا گرایش دیگر تحصیلی در آن گروه آزمایشی یا در یک گروه آزمایشی دیگر در همان \nمؤسسه تغییر رشته یا گرایش دهد : \nالف) وجود رشته یا گرایش مورد تقاضای دانشجو در همان مؤسسه \nب) کمتر نبودن نمرة اکتسابی دانشجو در آزمون سراسری از نمرة کشوری آن رشته یا گرایش  در مؤسسه در  \nسال پذیرش ، براساس کارنامة محرمانة دانشجو. \n ج) امکان ادامة تحصیل دانشجو در سنوات مجاز باقیمانده ",
+                                                "original_text": "برای انتقال یا انتقال توأم با تغییر رشته به دانشگاه پیام نور، طبق درخواس ت آن دانشگاه ، دانشجو \nباید دارای حداقل شرایط زیر باشد :  \n      الف ـ دانشجو باید حداقل24 واحد درسی را در دانشگاه مبدأ گذرانده باشد \n      ب ـ  دانشجویان پسر فاقد کارت پایان خدمت یا معافیت از خدمت سربازی، نباید بی ش از 4 نیمسال\nتحصیلی در دانشگاه مبدأ تحصیل کرده باشد. \n      "
+                                            },
+                                            "hash": "0fc028949d762286ef616241982a47d119c396df4921130a3f09cd41b34593ae"
+                                        },
+                                        "__pydantic_extra__": null,
+                                        "__pydantic_fields_set__": {
+                                            "py/set": [
+                                                "node_id",
+                                                "hash",
+                                                "node_type",
+                                                "metadata"
+                                            ]
+                                        },
+                                        "__pydantic_private__": null
+                                    }
+                                }
+                            },
+                            "text": "17ـ8 .  ",
+                            "mimetype": "text/plain",
+                            "start_char_idx": 573,
+                            "end_char_idx": 581,
+                            "text_template": "{metadata_str}\n\n{content}",
+                            "metadata_template": "{key}: {value}",
+                            "metadata_seperator": "\n"
+                        },
+                        "__pydantic_extra__": null,
+                        "__pydantic_fields_set__": {
+                            "py/set": [
+                                "text",
+                                "id_",
+                                "text_template",
+                                "start_char_idx",
+                                "embedding",
+                                "metadata_seperator",
+                                "mimetype",
+                                "metadata",
+                                "metadata_template",
+                                "relationships",
+                                "end_char_idx",
+                                "excluded_embed_metadata_keys",
+                                "excluded_llm_metadata_keys"
+                            ]
+                        },
+                        "__pydantic_private__": null
+                    }
+                },
+                "score": 0.534614695163833
+            },
+            "__pydantic_extra__": null,
+            "__pydantic_fields_set__": {
+                "py/set": [
+                    "node",
+                    "score"
+                ]
+            },
+            "__pydantic_private__": null
+        }
+    },
+    {
+        "py/object": "llama_index.core.schema.NodeWithScore",
+        "py/state": {
+            "__dict__": {
+                "node": {
+                    "py/object": "llama_index.core.schema.TextNode",
+                    "py/state": {
+                        "__dict__": {
+                            "id_": "2e76fa99-6cea-4e82-bf31-b3ffd4fa1216",
+                            "embedding": null,
+                            "metadata": {
+                                "page_label": "8",
+                                "file_name": "Ae.pdf",
+                                "doc_id": "8a6a3177-184e-45e8-b55d-f83ff8f75dc1",
+                                "window": "حداکثر مدت مجاز تحصیل در دوره های کاردانی و کارش ناسی ناپیوسته 2 سال و در دو رههای \nکارشناسی پیوسته 4 سال است. \n 8ـ2.   دانشجویی که نتواند در مدت مق رر، تحصیل خود را به پایان برساند ، محروم از تحص یل شن اخته \nخواهد شد.  \n تبصره .  موافقت با افزایش سنوات تحصیلی به مد ت دو نیمسال برای دانشجویان دوره های کاردانی و \nکارشناسی ناپیوسته و کارشناسی پیوسته ای که حداکثر مدت مجاز تحصیل آنان برابر مقررات به پایان \nرسیده و ادامة تحصیل آنها از لحاظ مقررات آموزشی مانعی نداشته باشد  از اختیارات شورای آموزشی \nدانشگاه است.  مطابق نامه شماره 1569/کد.م.خ مورخ20/8/ 1397 کمسیون موارد خاص، حداکثر\nسنوات قابل تمدید  برای دانشجویان کارشناسی 10 ترم اعلام گردید که از ترم 10 با پرداخت \nشهریه میباشد ؛ کمیسیون بررسی موارد خاص دانشگاه علاوه بر این فرصت میتواند با تشخیص موجه  \nبودن درخواست ادامة تحصیل دانشجو، حداکثر یک نیمسال دیگر به سنوات دانشجو اضافه کند .  در صورت \nتشخیص موجه  بودن اطالة تحصیل دانشجو از سوی کمیسیون بررسی موارد خاص یا شورای آموزشی ",
+                                "original_text": "تبصره . "
+                            },
+                            "excluded_embed_metadata_keys": [
+                                "doc_id",
+                                "window",
+                                "original_text"
+                            ],
+                            "excluded_llm_metadata_keys": [
+                                "file_name",
+                                "doc_id",
+                                "page_label",
+                                "window",
+                                "original_text"
+                            ],
+                            "relationships": {
+                                "1": {
+                                    "py/object": "llama_index.core.schema.RelatedNodeInfo",
+                                    "py/state": {
+                                        "__dict__": {
+                                            "node_id": "8a6a3177-184e-45e8-b55d-f83ff8f75dc1",
+                                            "node_type": {
+                                                "py/id": 14
+                                            },
+                                            "metadata": {
+                                                "page_label": "8",
+                                                "file_name": "Ae.pdf",
+                                                "doc_id": "8a6a3177-184e-45e8-b55d-f83ff8f75dc1"
+                                            },
+                                            "hash": "deff2f924c5fccf9b85853306144cd6af613859dc99f9c942f40b579db8a8ea6"
+                                        },
+                                        "__pydantic_extra__": null,
+                                        "__pydantic_fields_set__": {
+                                            "py/set": [
+                                                "node_id",
+                                                "hash",
+                                                "node_type",
+                                                "metadata"
+                                            ]
+                                        },
+                                        "__pydantic_private__": null
+                                    }
+                                },
+                                "2": {
+                                    "py/object": "llama_index.core.schema.RelatedNodeInfo",
+                                    "py/state": {
+                                        "__dict__": {
+                                            "node_id": "98660168-acff-457e-832d-6aa6417c037d",
+                                            "node_type": {
+                                                "py/id": 19
+                                            },
+                                            "metadata": {
+                                                "page_label": "8",
+                                                "file_name": "Ae.pdf",
+                                                "doc_id": "8a6a3177-184e-45e8-b55d-f83ff8f75dc1",
+                                                "window": "مادة 8 ـ طول دورهها (سنوات تحصیلی) \n8ـ1.   حداکثر مدت مجاز تحصیل در دوره های کاردانی و کارش ناسی ناپیوسته 2 سال و در دو رههای \nکارشناسی پیوسته 4 سال است. \n 8ـ2.   دانشجویی که نتواند در مدت مق رر، تحصیل خود را به پایان برساند ، محروم از تحص یل شن اخته \nخواهد شد.  \n تبصره .  موافقت با افزایش سنوات تحصیلی به مد ت دو نیمسال برای دانشجویان دوره های کاردانی و \nکارشناسی ناپیوسته و کارشناسی پیوسته ای که حداکثر مدت مجاز تحصیل آنان برابر مقررات به پایان \nرسیده و ادامة تحصیل آنها از لحاظ مقررات آموزشی مانعی نداشته باشد  از اختیارات شورای آموزشی \nدانشگاه است.  مطابق نامه شماره 1569/کد.م.خ مورخ20/8/ 1397 کمسیون موارد خاص، حداکثر\nسنوات قابل تمدید  برای دانشجویان کارشناسی 10 ترم اعلام گردید که از ترم 10 با پرداخت \nشهریه میباشد ؛ کمیسیون بررسی موارد خاص دانشگاه علاوه بر این فرصت میتواند با تشخیص موجه  \nبودن درخواست ادامة تحصیل دانشجو، حداکثر یک نیمسال دیگر به سنوات دانشجو اضافه کند . ",
+                                                "original_text": "دانشجویی که نتواند در مدت مق رر، تحصیل خود را به پایان برساند ، محروم از تحص یل شن اخته \nخواهد شد.  \n"
+                                            },
+                                            "hash": "26495e373b97a1e662d4e92edbf6a8961af5b0401b8fad37a296c849a63ffd1d"
+                                        },
+                                        "__pydantic_extra__": null,
+                                        "__pydantic_fields_set__": {
+                                            "py/set": [
+                                                "node_id",
+                                                "hash",
+                                                "node_type",
+                                                "metadata"
+                                            ]
+                                        },
+                                        "__pydantic_private__": null
+                                    }
+                                },
+                                "3": {
+                                    "py/object": "llama_index.core.schema.RelatedNodeInfo",
+                                    "py/state": {
+                                        "__dict__": {
+                                            "node_id": "3bf015e7-b5ac-46de-b749-3bbd7afb8cb9",
+                                            "node_type": {
+                                                "py/id": 19
+                                            },
+                                            "metadata": {
+                                                "window": "8ـ2.   دانشجویی که نتواند در مدت مق رر، تحصیل خود را به پایان برساند ، محروم از تحص یل شن اخته \nخواهد شد.  \n تبصره .  موافقت با افزایش سنوات تحصیلی به مد ت دو نیمسال برای دانشجویان دوره های کاردانی و \nکارشناسی ناپیوسته و کارشناسی پیوسته ای که حداکثر مدت مجاز تحصیل آنان برابر مقررات به پایان \nرسیده و ادامة تحصیل آنها از لحاظ مقررات آموزشی مانعی نداشته باشد  از اختیارات شورای آموزشی \nدانشگاه است.  مطابق نامه شماره 1569/کد.م.خ مورخ20/8/ 1397 کمسیون موارد خاص، حداکثر\nسنوات قابل تمدید  برای دانشجویان کارشناسی 10 ترم اعلام گردید که از ترم 10 با پرداخت \nشهریه میباشد ؛ کمیسیون بررسی موارد خاص دانشگاه علاوه بر این فرصت میتواند با تشخیص موجه  \nبودن درخواست ادامة تحصیل دانشجو، حداکثر یک نیمسال دیگر به سنوات دانشجو اضافه کند .  در صورت \nتشخیص موجه  بودن اطالة تحصیل دانشجو از سوی کمیسیون بررسی موارد خاص یا شورای آموزشی ",
+                                                "original_text": "موافقت با افزایش سنوات تحصیلی به مد ت دو نیمسال برای دانشجویان دوره های کاردانی و \nکارشناسی ناپیوسته و کارشناسی پیوسته ای که حداکثر مدت مجاز تحصیل آنان برابر مقررات به پایان \nرسیده و ادامة تحصیل آنها از لحاظ مقررات آموزشی مانعی نداشته باشد  از اختیارات شورای آموزشی \nدانشگاه است. "
+                                            },
+                                            "hash": "256d594d0fd2c4f1f164802f8a737de41bb4c07dbf6ebb5bbe5a942a2eab2ad8"
+                                        },
+                                        "__pydantic_extra__": null,
+                                        "__pydantic_fields_set__": {
+                                            "py/set": [
+                                                "node_id",
+                                                "hash",
+                                                "node_type",
+                                                "metadata"
+                                            ]
+                                        },
+                                        "__pydantic_private__": null
+                                    }
+                                }
+                            },
+                            "text": "تبصره . ",
+                            "mimetype": "text/plain",
+                            "start_char_idx": 711,
+                            "end_char_idx": 719,
+                            "text_template": "{metadata_str}\n\n{content}",
+                            "metadata_template": "{key}: {value}",
+                            "metadata_seperator": "\n"
+                        },
+                        "__pydantic_extra__": null,
+                        "__pydantic_fields_set__": {
+                            "py/set": [
+                                "text",
+                                "id_",
+                                "text_template",
+                                "start_char_idx",
+                                "embedding",
+                                "metadata_seperator",
+                                "mimetype",
+                                "metadata",
+                                "metadata_template",
+                                "relationships",
+                                "end_char_idx",
+                                "excluded_embed_metadata_keys",
+                                "excluded_llm_metadata_keys"
+                            ]
+                        },
+                        "__pydantic_private__": null
+                    }
+                },
+                "score": 0.5331505449766818
+            },
+            "__pydantic_extra__": null,
+            "__pydantic_fields_set__": {
+                "py/set": [
+                    "node",
+                    "score"
+                ]
+            },
+            "__pydantic_private__": null
+        }
+    },
+    {
+        "py/object": "llama_index.core.schema.NodeWithScore",
+        "py/state": {
+            "__dict__": {
+                "node": {
+                    "py/object": "llama_index.core.schema.TextNode",
+                    "py/state": {
+                        "__dict__": {
+                            "id_": "6e4af4ff-7a0b-47e9-8be8-875f8b03cb09",
+                            "embedding": null,
+                            "metadata": {
+                                "page_label": "24",
+                                "file_name": "Ae.pdf",
+                                "doc_id": "44bedd65-d65e-4b05-a7e1-69dbb71d0041",
+                                "window": "در غیر این صورت دانشگاه ارومیه از پذیرش واحد های مغایر با واحدهای پیشنهادی گروه آموزشی  \nمبداء معذور خواهد بود . \n 19ـ3ـ2.   دانشجوی مهمان موظف است که در پایان هر نیمسال ریزنمرات واحدهای گذراندة خود را ب ه \nدانشگاه ارومیه ارائه کند. \n 19ـ3ـ3.   ریز نمرات واحدهای گذراندة دانشجو در دانشگاه مقصد، برای تطبیق با عنوان و  تعداد واحدهای \nپیشنهاد شده، به گروه آموزشی مبداء ارسال خواهد شد . \n 19ـ3ـ4.   تمام نمرات واحدهای گذراندة دانشجو اعم از مردودی و قبولی با رعایت ضوابط تعیین ش ده در \nاین شیوه نامه، در کارنامة دانشجو ثبت خواهد شد .  \n",
+                                "original_text": "19ـ3ـ3.  "
+                            },
+                            "excluded_embed_metadata_keys": [
+                                "doc_id",
+                                "window",
+                                "original_text"
+                            ],
+                            "excluded_llm_metadata_keys": [
+                                "file_name",
+                                "doc_id",
+                                "page_label",
+                                "window",
+                                "original_text"
+                            ],
+                            "relationships": {
+                                "1": {
+                                    "py/object": "llama_index.core.schema.RelatedNodeInfo",
+                                    "py/state": {
+                                        "__dict__": {
+                                            "node_id": "44bedd65-d65e-4b05-a7e1-69dbb71d0041",
+                                            "node_type": {
+                                                "py/id": 14
+                                            },
+                                            "metadata": {
+                                                "page_label": "24",
+                                                "file_name": "Ae.pdf",
+                                                "doc_id": "44bedd65-d65e-4b05-a7e1-69dbb71d0041"
+                                            },
+                                            "hash": "a0eee8eb4b6b6c01db54bb5c500b474df628c757b22c14eb9d89be35f0278ec1"
+                                        },
+                                        "__pydantic_extra__": null,
+                                        "__pydantic_fields_set__": {
+                                            "py/set": [
+                                                "node_id",
+                                                "hash",
+                                                "node_type",
+                                                "metadata"
+                                            ]
+                                        },
+                                        "__pydantic_private__": null
+                                    }
+                                },
+                                "2": {
+                                    "py/object": "llama_index.core.schema.RelatedNodeInfo",
+                                    "py/state": {
+                                        "__dict__": {
+                                            "node_id": "d2fb2980-ebf2-4840-ad02-272c3f49915a",
+                                            "node_type": {
+                                                "py/id": 19
+                                            },
+                                            "metadata": {
+                                                "page_label": "24",
+                                                "file_name": "Ae.pdf",
+                                                "doc_id": "44bedd65-d65e-4b05-a7e1-69dbb71d0041",
+                                                "window": "در صورت وقوع هرگونه تغییر در انتخاب واحد، بلافاصله  \nباید نسبت به دریافت اصلاحیِة انتخاب واحد از گروه آموزشی مبداء و ارائة آن به گروه آموزشی  مقصد اقدام \nنماید.  در غیر این صورت دانشگاه ارومیه از پذیرش واحد های مغایر با واحدهای پیشنهادی گروه آموزشی  \nمبداء معذور خواهد بود . \n 19ـ3ـ2.   دانشجوی مهمان موظف است که در پایان هر نیمسال ریزنمرات واحدهای گذراندة خود را ب ه \nدانشگاه ارومیه ارائه کند. \n 19ـ3ـ3.   ریز نمرات واحدهای گذراندة دانشجو در دانشگاه مقصد، برای تطبیق با عنوان و  تعداد واحدهای \nپیشنهاد شده، به گروه آموزشی مبداء ارسال خواهد شد . \n 19ـ3ـ4.  ",
+                                                "original_text": "دانشجوی مهمان موظف است که در پایان هر نیمسال ریزنمرات واحدهای گذراندة خود را ب ه \nدانشگاه ارومیه ارائه کند. \n"
+                                            },
+                                            "hash": "b27106d8cf634f49cb8fc7910ad280ace992fe9da45f966f0c6d74b31413890d"
+                                        },
+                                        "__pydantic_extra__": null,
+                                        "__pydantic_fields_set__": {
+                                            "py/set": [
+                                                "node_id",
+                                                "hash",
+                                                "node_type",
+                                                "metadata"
+                                            ]
+                                        },
+                                        "__pydantic_private__": null
+                                    }
+                                },
+                                "3": {
+                                    "py/object": "llama_index.core.schema.RelatedNodeInfo",
+                                    "py/state": {
+                                        "__dict__": {
+                                            "node_id": "8d26d64c-9ae5-4b4c-9c15-ce0d3493b782",
+                                            "node_type": {
+                                                "py/id": 19
+                                            },
+                                            "metadata": {
+                                                "window": "19ـ3ـ2.   دانشجوی مهمان موظف است که در پایان هر نیمسال ریزنمرات واحدهای گذراندة خود را ب ه \nدانشگاه ارومیه ارائه کند. \n 19ـ3ـ3.   ریز نمرات واحدهای گذراندة دانشجو در دانشگاه مقصد، برای تطبیق با عنوان و  تعداد واحدهای \nپیشنهاد شده، به گروه آموزشی مبداء ارسال خواهد شد . \n 19ـ3ـ4.   تمام نمرات واحدهای گذراندة دانشجو اعم از مردودی و قبولی با رعایت ضوابط تعیین ش ده در \nاین شیوه نامه، در کارنامة دانشجو ثبت خواهد شد .  \n مادة20ـ فراغت از تحصیل \n20ـ1.  ",
+                                                "original_text": "ریز نمرات واحدهای گذراندة دانشجو در دانشگاه مقصد، برای تطبیق با عنوان و  تعداد واحدهای \nپیشنهاد شده، به گروه آموزشی مبداء ارسال خواهد شد . \n"
+                                            },
+                                            "hash": "11060d80539f10aef579692a2ca4e59f8e138031d8a5e82117a814725d100599"
+                                        },
+                                        "__pydantic_extra__": null,
+                                        "__pydantic_fields_set__": {
+                                            "py/set": [
+                                                "node_id",
+                                                "hash",
+                                                "node_type",
+                                                "metadata"
+                                            ]
+                                        },
+                                        "__pydantic_private__": null
+                                    }
+                                }
+                            },
+                            "text": "19ـ3ـ3.  ",
+                            "mimetype": "text/plain",
+                            "start_char_idx": 718,
+                            "end_char_idx": 727,
+                            "text_template": "{metadata_str}\n\n{content}",
+                            "metadata_template": "{key}: {value}",
+                            "metadata_seperator": "\n"
+                        },
+                        "__pydantic_extra__": null,
+                        "__pydantic_fields_set__": {
+                            "py/set": [
+                                "text",
+                                "id_",
+                                "text_template",
+                                "start_char_idx",
+                                "embedding",
+                                "metadata_seperator",
+                                "mimetype",
+                                "metadata",
+                                "metadata_template",
+                                "relationships",
+                                "end_char_idx",
+                                "excluded_embed_metadata_keys",
+                                "excluded_llm_metadata_keys"
+                            ]
+                        },
+                        "__pydantic_private__": null
+                    }
+                },
+                "score": 0.5310842675306676
+            },
+            "__pydantic_extra__": null,
+            "__pydantic_fields_set__": {
+                "py/set": [
+                    "node",
+                    "score"
+                ]
+            },
+            "__pydantic_private__": null
+        }
+    },
+    {
+        "py/object": "llama_index.core.schema.NodeWithScore",
+        "py/state": {
+            "__dict__": {
+                "node": {
+                    "py/object": "llama_index.core.schema.TextNode",
+                    "py/state": {
+                        "__dict__": {
+                            "id_": "81212b2f-8f94-4fe6-a0fb-e0dcf4b9ba62",
+                            "embedding": null,
+                            "metadata": {
+                                "page_label": "24",
+                                "file_name": "Ae.pdf",
+                                "doc_id": "44bedd65-d65e-4b05-a7e1-69dbb71d0041",
+                                "window": " 19ـ3 .  تطبیق واحدهای گذراندة دانشجو در دورة مهمانی در دانشگاه دیگر با واحد های درسی او . \n 19ـ3ـ1.   دانشجو به هنگام مهمانی باید فرم پیشنهاد واحد درسی را از گروه آموزشی خود دریافت کرده \nبعد از انجام مراحل مهمانی در ادارة کل آموزش، به دانشگاه مقصد ا رائه کند و خارج از واحدهای درسی  \nپیشنهاد شده هیچ واحد دیگری را انتخاب نکند.  در صورت وقوع هرگونه تغییر در انتخاب واحد، بلافاصله  \nباید نسبت به دریافت اصلاحیِة انتخاب واحد از گروه آموزشی مبداء و ارائة آن به گروه آموزشی  مقصد اقدام \nنماید.  در غیر این صورت دانشگاه ارومیه از پذیرش واحد های مغایر با واحدهای پیشنهادی گروه آموزشی  \nمبداء معذور خواهد بود . \n",
+                                "original_text": "19ـ3ـ1.  "
+                            },
+                            "excluded_embed_metadata_keys": [
+                                "doc_id",
+                                "window",
+                                "original_text"
+                            ],
+                            "excluded_llm_metadata_keys": [
+                                "file_name",
+                                "doc_id",
+                                "page_label",
+                                "window",
+                                "original_text"
+                            ],
+                            "relationships": {
+                                "1": {
+                                    "py/object": "llama_index.core.schema.RelatedNodeInfo",
+                                    "py/state": {
+                                        "__dict__": {
+                                            "node_id": "44bedd65-d65e-4b05-a7e1-69dbb71d0041",
+                                            "node_type": {
+                                                "py/id": 14
+                                            },
+                                            "metadata": {
+                                                "page_label": "24",
+                                                "file_name": "Ae.pdf",
+                                                "doc_id": "44bedd65-d65e-4b05-a7e1-69dbb71d0041"
+                                            },
+                                            "hash": "a0eee8eb4b6b6c01db54bb5c500b474df628c757b22c14eb9d89be35f0278ec1"
+                                        },
+                                        "__pydantic_extra__": null,
+                                        "__pydantic_fields_set__": {
+                                            "py/set": [
+                                                "node_id",
+                                                "hash",
+                                                "node_type",
+                                                "metadata"
+                                            ]
+                                        },
+                                        "__pydantic_private__": null
+                                    }
+                                },
+                                "2": {
+                                    "py/object": "llama_index.core.schema.RelatedNodeInfo",
+                                    "py/state": {
+                                        "__dict__": {
+                                            "node_id": "adb9931e-0dff-46a2-807d-9071271913d5",
+                                            "node_type": {
+                                                "py/id": 19
+                                            },
+                                            "metadata": {
+                                                "page_label": "24",
+                                                "file_name": "Ae.pdf",
+                                                "doc_id": "44bedd65-d65e-4b05-a7e1-69dbb71d0041",
+                                                "window": " 19ـ3 .  تطبیق واحدهای گذراندة دانشجو در دورة مهمانی در دانشگاه دیگر با واحد های درسی او . \n 19ـ3ـ1.   دانشجو به هنگام مهمانی باید فرم پیشنهاد واحد درسی را از گروه آموزشی خود دریافت کرده \nبعد از انجام مراحل مهمانی در ادارة کل آموزش، به دانشگاه مقصد ا رائه کند و خارج از واحدهای درسی  \nپیشنهاد شده هیچ واحد دیگری را انتخاب نکند.  در صورت وقوع هرگونه تغییر در انتخاب واحد، بلافاصله  \nباید نسبت به دریافت اصلاحیِة انتخاب واحد از گروه آموزشی مبداء و ارائة آن به گروه آموزشی  مقصد اقدام \nنماید. ",
+                                                "original_text": "تطبیق واحدهای گذراندة دانشجو در دورة مهمانی در دانشگاه دیگر با واحد های درسی او . \n"
+                                            },
+                                            "hash": "27b04266a29da1a918bff9c8d168bdfee3afcca93a46fcf1d6ed413db35b3ccf"
+                                        },
+                                        "__pydantic_extra__": null,
+                                        "__pydantic_fields_set__": {
+                                            "py/set": [
+                                                "node_id",
+                                                "hash",
+                                                "node_type",
+                                                "metadata"
+                                            ]
+                                        },
+                                        "__pydantic_private__": null
+                                    }
+                                },
+                                "3": {
+                                    "py/object": "llama_index.core.schema.RelatedNodeInfo",
+                                    "py/state": {
+                                        "__dict__": {
+                                            "node_id": "cb034cef-41c4-4fda-94a2-9b4bb0757c3f",
+                                            "node_type": {
+                                                "py/id": 19
+                                            },
+                                            "metadata": {
+                                                "window": " 19ـ3 .  تطبیق واحدهای گذراندة دانشجو در دورة مهمانی در دانشگاه دیگر با واحد های درسی او . \n 19ـ3ـ1.   دانشجو به هنگام مهمانی باید فرم پیشنهاد واحد درسی را از گروه آموزشی خود دریافت کرده \nبعد از انجام مراحل مهمانی در ادارة کل آموزش، به دانشگاه مقصد ا رائه کند و خارج از واحدهای درسی  \nپیشنهاد شده هیچ واحد دیگری را انتخاب نکند.  در صورت وقوع هرگونه تغییر در انتخاب واحد، بلافاصله  \nباید نسبت به دریافت اصلاحیِة انتخاب واحد از گروه آموزشی مبداء و ارائة آن به گروه آموزشی  مقصد اقدام \nنماید.  در غیر این صورت دانشگاه ارومیه از پذیرش واحد های مغایر با واحدهای پیشنهادی گروه آموزشی  \nمبداء معذور خواهد بود . \n 19ـ3ـ2.  ",
+                                                "original_text": "دانشجو به هنگام مهمانی باید فرم پیشنهاد واحد درسی را از گروه آموزشی خود دریافت کرده \nبعد از انجام مراحل مهمانی در ادارة کل آموزش، به دانشگاه مقصد ا رائه کند و خارج از واحدهای درسی  \nپیشنهاد شده هیچ واحد دیگری را انتخاب نکند. "
+                                            },
+                                            "hash": "45d9c2c6810a637fbfed2f1bd2fd62d926a3a49be5ce8048766dcf4a81678939"
+                                        },
+                                        "__pydantic_extra__": null,
+                                        "__pydantic_fields_set__": {
+                                            "py/set": [
+                                                "node_id",
+                                                "hash",
+                                                "node_type",
+                                                "metadata"
+                                            ]
+                                        },
+                                        "__pydantic_private__": null
+                                    }
+                                }
+                            },
+                            "text": "19ـ3ـ1.  ",
+                            "mimetype": "text/plain",
+                            "start_char_idx": 91,
+                            "end_char_idx": 100,
+                            "text_template": "{metadata_str}\n\n{content}",
+                            "metadata_template": "{key}: {value}",
+                            "metadata_seperator": "\n"
+                        },
+                        "__pydantic_extra__": null,
+                        "__pydantic_fields_set__": {
+                            "py/set": [
+                                "text",
+                                "id_",
+                                "text_template",
+                                "start_char_idx",
+                                "embedding",
+                                "metadata_seperator",
+                                "mimetype",
+                                "metadata",
+                                "metadata_template",
+                                "relationships",
+                                "end_char_idx",
+                                "excluded_embed_metadata_keys",
+                                "excluded_llm_metadata_keys"
+                            ]
+                        },
+                        "__pydantic_private__": null
+                    }
+                },
+                "score": 0.5305006040542807
+            },
+            "__pydantic_extra__": null,
+            "__pydantic_fields_set__": {
+                "py/set": [
+                    "node",
+                    "score"
+                ]
+            },
+            "__pydantic_private__": null
+        }
+    },
+    {
+        "py/object": "llama_index.core.schema.NodeWithScore",
+        "py/state": {
+            "__dict__": {
+                "node": {
+                    "py/object": "llama_index.core.schema.TextNode",
+                    "py/state": {
+                        "__dict__": {
+                            "id_": "831fcca6-57b9-4280-8f2d-6e19ab6ebfba",
+                            "embedding": null,
+                            "metadata": {
+                                "page_label": "23",
+                                "file_name": "Ae.pdf",
+                                "doc_id": "33da36f9-a1d9-4008-8d74-1986fdcf004b",
+                                "window": "تطبیق واحدهای عمومی با نمرة بالای12 با تأیید گروه آموزشی مربوط مجاز است . \n 19ـ2ـ2.   تطبیق واحد های تخصصی با رعایت همسانی رشته و مقطع با نمرة بالای 12 با تأ یید گروه \nآموزشی مربوط مجاز است . \n 19ـ2ـ3.   در صورت انتقال دایم دانشجو  در همان رشته و گرایش تمام واحدهای دانشجو در  کارنامة فعلی \nاو ثبت خواهد شد ولی تنها نمرات پذیرفته شدة دانشجو در میانگین کل او مؤثر خواهد بود .  بنا براین \nمشروطیهای دانشجو در دانشگاه قبلی ع یناً در کارنامة او ثبت خواهد شد. \n 19ـ2ـ4. ",
+                                "original_text": "19ـ2ـ3.  "
+                            },
+                            "excluded_embed_metadata_keys": [
+                                "doc_id",
+                                "window",
+                                "original_text"
+                            ],
+                            "excluded_llm_metadata_keys": [
+                                "file_name",
+                                "doc_id",
+                                "page_label",
+                                "window",
+                                "original_text"
+                            ],
+                            "relationships": {
+                                "1": {
+                                    "py/object": "llama_index.core.schema.RelatedNodeInfo",
+                                    "py/state": {
+                                        "__dict__": {
+                                            "node_id": "33da36f9-a1d9-4008-8d74-1986fdcf004b",
+                                            "node_type": {
+                                                "py/id": 14
+                                            },
+                                            "metadata": {
+                                                "page_label": "23",
+                                                "file_name": "Ae.pdf",
+                                                "doc_id": "33da36f9-a1d9-4008-8d74-1986fdcf004b"
+                                            },
+                                            "hash": "d66fc70d760baeb585084c3f0e3302c23b5e4e82369aec57ba9957636c9c2191"
+                                        },
+                                        "__pydantic_extra__": null,
+                                        "__pydantic_fields_set__": {
+                                            "py/set": [
+                                                "node_id",
+                                                "hash",
+                                                "node_type",
+                                                "metadata"
+                                            ]
+                                        },
+                                        "__pydantic_private__": null
+                                    }
+                                },
+                                "2": {
+                                    "py/object": "llama_index.core.schema.RelatedNodeInfo",
+                                    "py/state": {
+                                        "__dict__": {
+                                            "node_id": "f4425ad0-a375-42ad-9bb4-58633554c49a",
+                                            "node_type": {
+                                                "py/id": 19
+                                            },
+                                            "metadata": {
+                                                "page_label": "23",
+                                                "file_name": "Ae.pdf",
+                                                "doc_id": "33da36f9-a1d9-4008-8d74-1986fdcf004b",
+                                                "window": "19ـ2ـ1.   تطبیق واحدهای عمومی با نمرة بالای12 با تأیید گروه آموزشی مربوط مجاز است . \n 19ـ2ـ2.   تطبیق واحد های تخصصی با رعایت همسانی رشته و مقطع با نمرة بالای 12 با تأ یید گروه \nآموزشی مربوط مجاز است . \n 19ـ2ـ3.   در صورت انتقال دایم دانشجو  در همان رشته و گرایش تمام واحدهای دانشجو در  کارنامة فعلی \nاو ثبت خواهد شد ولی تنها نمرات پذیرفته شدة دانشجو در میانگین کل او مؤثر خواهد بود .  بنا براین \nمشروطیهای دانشجو در دانشگاه قبلی ع یناً در کارنامة او ثبت خواهد شد. \n",
+                                                "original_text": "تطبیق واحد های تخصصی با رعایت همسانی رشته و مقطع با نمرة بالای 12 با تأ یید گروه \nآموزشی مربوط مجاز است . \n"
+                                            },
+                                            "hash": "1b791fa2b9583c5039879ef5ed4066e186662627c503732b937d57de7826f5e4"
+                                        },
+                                        "__pydantic_extra__": null,
+                                        "__pydantic_fields_set__": {
+                                            "py/set": [
+                                                "node_id",
+                                                "hash",
+                                                "node_type",
+                                                "metadata"
+                                            ]
+                                        },
+                                        "__pydantic_private__": null
+                                    }
+                                },
+                                "3": {
+                                    "py/object": "llama_index.core.schema.RelatedNodeInfo",
+                                    "py/state": {
+                                        "__dict__": {
+                                            "node_id": "33f330f5-8630-49e2-8579-d6dbe6d14339",
+                                            "node_type": {
+                                                "py/id": 19
+                                            },
+                                            "metadata": {
+                                                "window": "19ـ2ـ2.   تطبیق واحد های تخصصی با رعایت همسانی رشته و مقطع با نمرة بالای 12 با تأ یید گروه \nآموزشی مربوط مجاز است . \n 19ـ2ـ3.   در صورت انتقال دایم دانشجو  در همان رشته و گرایش تمام واحدهای دانشجو در  کارنامة فعلی \nاو ثبت خواهد شد ولی تنها نمرات پذیرفته شدة دانشجو در میانگین کل او مؤثر خواهد بود .  بنا براین \nمشروطیهای دانشجو در دانشگاه قبلی ع یناً در کارنامة او ثبت خواهد شد. \n 19ـ2ـ4.  در صورت تغییررشته یا انتقال تؤام با تغییر رشته ، به ازای حداکثر هر 20 واحد تطبیق شده یک  \nنیمسال تحصیلی در کارنامة دانشجو ایجاد شده و تنها نمرات پذیرفته شده با احتساب در سنوات ت حصیلی \nدر آن نیمسال ثبت خواهد شد .  ",
+                                                "original_text": "در صورت انتقال دایم دانشجو  در همان رشته و گرایش تمام واحدهای دانشجو در  کارنامة فعلی \nاو ثبت خواهد شد ولی تنها نمرات پذیرفته شدة دانشجو در میانگین کل او مؤثر خواهد بود . "
+                                            },
+                                            "hash": "00550471f74f9c57a1a18fa53255901c306f298d6aad2e34199fe954ba5775e2"
+                                        },
+                                        "__pydantic_extra__": null,
+                                        "__pydantic_fields_set__": {
+                                            "py/set": [
+                                                "node_id",
+                                                "hash",
+                                                "node_type",
+                                                "metadata"
+                                            ]
+                                        },
+                                        "__pydantic_private__": null
+                                    }
+                                }
+                            },
+                            "text": "19ـ2ـ3.  ",
+                            "mimetype": "text/plain",
+                            "start_char_idx": 1123,
+                            "end_char_idx": 1132,
+                            "text_template": "{metadata_str}\n\n{content}",
+                            "metadata_template": "{key}: {value}",
+                            "metadata_seperator": "\n"
+                        },
+                        "__pydantic_extra__": null,
+                        "__pydantic_fields_set__": {
+                            "py/set": [
+                                "text",
+                                "id_",
+                                "text_template",
+                                "start_char_idx",
+                                "embedding",
+                                "metadata_seperator",
+                                "mimetype",
+                                "metadata",
+                                "metadata_template",
+                                "relationships",
+                                "end_char_idx",
+                                "excluded_embed_metadata_keys",
+                                "excluded_llm_metadata_keys"
+                            ]
+                        },
+                        "__pydantic_private__": null
+                    }
+                },
+                "score": 0.5304910454037889
+            },
+            "__pydantic_extra__": null,
+            "__pydantic_fields_set__": {
+                "py/set": [
+                    "node",
+                    "score"
+                ]
+            },
+            "__pydantic_private__": null
+        }
+    },
+    {
+        "py/object": "llama_index.core.schema.NodeWithScore",
+        "py/state": {
+            "__dict__": {
+                "node": {
+                    "py/object": "llama_index.core.schema.TextNode",
+                    "py/state": {
+                        "__dict__": {
+                            "id_": "2d463920-f2b7-4a0a-92d2-eda804e46cc2",
+                            "embedding": null,
+                            "metadata": {
+                                "page_label": "3",
+                                "file_name": "Ae.pdf",
+                                "doc_id": "d51dbd3a-f5c3-474d-b926-1ecc3c2969fb",
+                                "window": "2ـ3.  آموزش رایگانمنظور آموزش دانشجو در طول سنوات مجاز دورة تحصیلی بدون پرداخت  هزینه در \nدانشگاه هایی است که از بودجة عمومی دولت استفاده می کنند.  آموزش رایگان برای هر دانشجو،  در هر \nدورة تحصیلی صرفاً یکبار و در یک رشتة تحصیلی امکان پذیر است . \n تبصره .  چنانجه دانشجو هزینه آموزش رایگان دوره تحصیلی قبل را پرداخت نماید، می تواند از آ موزش \nرایگان مجدد در همان دوره را استفاده نماید. \n 2ـ4 .  دانشجو فردی است که در یکی از دوره های آموزش عالی برابر ضوابط معین، پذیرفت ه شده، ثبت نا م \nکرده مشغول به تحصیل است. \n",
+                                "original_text": "تبصره . "
+                            },
+                            "excluded_embed_metadata_keys": [
+                                "doc_id",
+                                "window",
+                                "original_text"
+                            ],
+                            "excluded_llm_metadata_keys": [
+                                "file_name",
+                                "doc_id",
+                                "page_label",
+                                "window",
+                                "original_text"
+                            ],
+                            "relationships": {
+                                "1": {
+                                    "py/object": "llama_index.core.schema.RelatedNodeInfo",
+                                    "py/state": {
+                                        "__dict__": {
+                                            "node_id": "d51dbd3a-f5c3-474d-b926-1ecc3c2969fb",
+                                            "node_type": {
+                                                "py/id": 14
+                                            },
+                                            "metadata": {
+                                                "page_label": "3",
+                                                "file_name": "Ae.pdf",
+                                                "doc_id": "d51dbd3a-f5c3-474d-b926-1ecc3c2969fb"
+                                            },
+                                            "hash": "89ed44e818879c7ec9a8c9f150e1e5c004292606f877a614bab8476771c1f0c4"
+                                        },
+                                        "__pydantic_extra__": null,
+                                        "__pydantic_fields_set__": {
+                                            "py/set": [
+                                                "node_id",
+                                                "hash",
+                                                "node_type",
+                                                "metadata"
+                                            ]
+                                        },
+                                        "__pydantic_private__": null
+                                    }
+                                },
+                                "2": {
+                                    "py/object": "llama_index.core.schema.RelatedNodeInfo",
+                                    "py/state": {
+                                        "__dict__": {
+                                            "node_id": "6e4fba8a-94cd-4d8e-9cc5-05899b36f2b4",
+                                            "node_type": {
+                                                "py/id": 19
+                                            },
+                                            "metadata": {
+                                                "page_label": "3",
+                                                "file_name": "Ae.pdf",
+                                                "doc_id": "d51dbd3a-f5c3-474d-b926-1ecc3c2969fb",
+                                                "window": " 2ـ2 .دانشگاه: منظور هر یک از دانشگاه ها و مؤسسات آموزش عالی و پژوهشی (اعم از دولتی و غیر  دولتی) \nاست که دارای مجوز تأسیس از مراجع ذیربط بوده و هر یک از  آنها مجری یکی از دوره های کاردانی،  \nکارشناسی ناپیوسته و کارشناسی پیوسته هستند.  \n 2ـ3.  آموزش رایگانمنظور آموزش دانشجو در طول سنوات مجاز دورة تحصیلی بدون پرداخت  هزینه در \nدانشگاه هایی است که از بودجة عمومی دولت استفاده می کنند.  آموزش رایگان برای هر دانشجو،  در هر \nدورة تحصیلی صرفاً یکبار و در یک رشتة تحصیلی امکان پذیر است . \n تبصره .  چنانجه دانشجو هزینه آموزش رایگان دوره تحصیلی قبل را پرداخت نماید، می تواند از آ موزش \nرایگان مجدد در همان دوره را استفاده نماید. \n 2ـ4 . ",
+                                                "original_text": "آموزش رایگان برای هر دانشجو،  در هر \nدورة تحصیلی صرفاً یکبار و در یک رشتة تحصیلی امکان پذیر است . \n"
+                                            },
+                                            "hash": "7d0846f742049a4b665c261a18b89380098d260bf0719841651ccbedc1dbfb6e"
+                                        },
+                                        "__pydantic_extra__": null,
+                                        "__pydantic_fields_set__": {
+                                            "py/set": [
+                                                "node_id",
+                                                "hash",
+                                                "node_type",
+                                                "metadata"
+                                            ]
+                                        },
+                                        "__pydantic_private__": null
+                                    }
+                                },
+                                "3": {
+                                    "py/object": "llama_index.core.schema.RelatedNodeInfo",
+                                    "py/state": {
+                                        "__dict__": {
+                                            "node_id": "77db7810-d78d-4383-bea5-4239cf85275e",
+                                            "node_type": {
+                                                "py/id": 19
+                                            },
+                                            "metadata": {
+                                                "window": "آموزش رایگانمنظور آموزش دانشجو در طول سنوات مجاز دورة تحصیلی بدون پرداخت  هزینه در \nدانشگاه هایی است که از بودجة عمومی دولت استفاده می کنند.  آموزش رایگان برای هر دانشجو،  در هر \nدورة تحصیلی صرفاً یکبار و در یک رشتة تحصیلی امکان پذیر است . \n تبصره .  چنانجه دانشجو هزینه آموزش رایگان دوره تحصیلی قبل را پرداخت نماید، می تواند از آ موزش \nرایگان مجدد در همان دوره را استفاده نماید. \n 2ـ4 .  دانشجو فردی است که در یکی از دوره های آموزش عالی برابر ضوابط معین، پذیرفت ه شده، ثبت نا م \nکرده مشغول به تحصیل است. \n 2ـ5 . ",
+                                                "original_text": "چنانجه دانشجو هزینه آموزش رایگان دوره تحصیلی قبل را پرداخت نماید، می تواند از آ موزش \nرایگان مجدد در همان دوره را استفاده نماید. \n"
+                                            },
+                                            "hash": "d227ffbacf47239285717d200c818720073dfa00eb0c62dbacb59084d78b124d"
+                                        },
+                                        "__pydantic_extra__": null,
+                                        "__pydantic_fields_set__": {
+                                            "py/set": [
+                                                "node_id",
+                                                "hash",
+                                                "node_type",
+                                                "metadata"
+                                            ]
+                                        },
+                                        "__pydantic_private__": null
+                                    }
+                                }
+                            },
+                            "text": "تبصره . ",
+                            "mimetype": "text/plain",
+                            "start_char_idx": 482,
+                            "end_char_idx": 490,
+                            "text_template": "{metadata_str}\n\n{content}",
+                            "metadata_template": "{key}: {value}",
+                            "metadata_seperator": "\n"
+                        },
+                        "__pydantic_extra__": null,
+                        "__pydantic_fields_set__": {
+                            "py/set": [
+                                "text",
+                                "id_",
+                                "text_template",
+                                "start_char_idx",
+                                "embedding",
+                                "metadata_seperator",
+                                "mimetype",
+                                "metadata",
+                                "metadata_template",
+                                "relationships",
+                                "end_char_idx",
+                                "excluded_embed_metadata_keys",
+                                "excluded_llm_metadata_keys"
+                            ]
+                        },
+                        "__pydantic_private__": null
+                    }
+                },
+                "score": 0.5293797292269817
+            },
+            "__pydantic_extra__": null,
+            "__pydantic_fields_set__": {
+                "py/set": [
+                    "node",
+                    "score"
+                ]
+            },
+            "__pydantic_private__": null
+        }
+    }
+]

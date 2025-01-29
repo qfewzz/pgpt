@@ -1,0 +1,20 @@
+server:
+  env_name: ${APP_ENV:openai}
+
+llm:
+  mode: openai
+
+embedding:
+  mode: openai
+
+openai:
+  # api_base: http://172.20.20.252:1234/v1
+  api_base: http://127.0.0.1:1234/v1
+  api_key: lm-studio
+  model: lmstudio-community/some_models/gemma-2-2b-it-q8_0.gguf
+  # model: lmstudio-community/some_models/meta-llama-3.2-3b-instruct-q8_0.gguf
+  max_new_tokens: 4096
+  context_window: 4096
+  # temperature: 0.8
+
+  request_timeout: 10000.0
