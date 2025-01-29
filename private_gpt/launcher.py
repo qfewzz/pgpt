@@ -1,6 +1,7 @@
 """FastAPI app creation, logger configuration and main API routes."""
 
 import logging
+import time
 
 from fastapi import Depends, FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
@@ -65,5 +66,6 @@ def create_app(root_injector: Injector) -> FastAPI:
 
         ui = root_injector.get(PrivateGptUi)
         ui.mount_in_app(app, settings.ui.path)
+        time.sleep(999999999)
 
     return app

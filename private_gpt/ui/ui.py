@@ -575,11 +575,14 @@ class PrivateGptUi:
             self._ui_block = self._build_ui_blocks()
         return self._ui_block
 
-    def mount_in_app(self, app: FastAPI, path: str) -> None:
-        blocks = self.get_ui_blocks()
+    def mount_in_app(app: FastAPI, path: str):
+        blocks = gr.Blocks()
+        with blocks:
+            gr.Markdown("# Hello from Gradio inside FastAPI!")
+            gr.Interface(lambda x: f"Hello, {x}!", "text", "text").launch(share=True, debug=True, show_api=False, prevent_thread_lock=True)  # Enables public sharing
+
         blocks.queue()
-        logger.info("Mounting the gradio UI, at path=%s", path)
-        gr.mount_gradio_app(app, blocks, path=path, favicon_path=AVATAR_BOT)
+        gr.mount_gradio_app(app, blocks, path=path)
 
 if __name__ == "__main__":
     ui = global_injector.get(PrivateGptUi)
