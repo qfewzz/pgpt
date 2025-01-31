@@ -62,9 +62,7 @@ class LLMComponent:
                 }
                 if settings.llamacpp.chat_format:
                     settings_kwargs["chat_format"] = settings.llamacpp.chat_format
-
-                
-                
+                    
                 model_path = str(models_path / settings.llamacpp.llm_hf_model_file)
                 
                 logger.warning(f'*** model_path: {model_path}')
